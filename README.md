@@ -80,12 +80,7 @@ The app reads common variables such as:
 
 Example `.env`:
 
-Copy
-
-Insert
-
 SECRET_KEY=supersecretkey MONGO_URI=mongodb://localhost:27017/your-db PORT=5000 FLASK_DEBUG=True
-
 
 ---
 
@@ -93,12 +88,7 @@ SECRET_KEY=supersecretkey MONGO_URI=mongodb://localhost:27017/your-db PORT=5000 
 
 Recommended (module mode from project root):
 
-Copy
-
-Insert
-
 python -m backend.app
-
 
 Alternative (Flask CLI):
 
