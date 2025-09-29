@@ -183,7 +183,6 @@ The following blueprints are registered in `backend/app.py`:
 - Add test dependencies to `requirements-dev.txt`.
 - Use `pytest`:
 
-
 pytest -q
 
 - Keep test data and cache out of Git via `.gitignore`.

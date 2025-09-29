@@ -8,5 +8,5 @@ app.secret_key = os.environ.get("SECRET_KEY", "supersecretkey")
 CORS(app, supports_credentials=True)
 
 # Use environment variable for MongoDB URI with fallback
-app.config["MONGO_URI"] = os.environ.get("")
+app.config["MONGO_URI"] = os.environ.get("mongodb://localhost:27017/event_flow", "mongodb://localhost:27017/event_flow")
 mongo = PyMongo(app)

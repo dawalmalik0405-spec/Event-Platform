@@ -519,44 +519,61 @@
       box-shadow: 0 10px 22px rgba(106, 13, 173, 0.16);
     }
 
-    .hero-panel {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow-strong);
-      padding: 24px;
-    }
+   /* Pin hero panel to the top-right of the viewport */
+      .hero-panel {
+        position: absolute;
+        top: 150px;
+        right: 150px;
+        margin-top: 0;
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-strong);
+        padding: 24px;
+        width: 600px;                 /* adjust as needed */
+        max-width: calc(100% - 32px); /* keeps spacing on very small viewports */
+        z-index: 1000;                /* ensure it sits above content */
+      }
 
-    .hero-panel h3 {
-      margin: 0 0 12px;
-      font-size: 1.3rem;
-    }
+      .hero-panel h3 {
+        margin: 0 0 12px;
+        font-size: 1.3rem;
+      }
 
-    .hero-kpis {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
-    }
+      .hero-kpis {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
 
-    .kpi {
-      background: #fff;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 18px;
-      text-align: center;
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
-    }
+      .kpi {
+        background: #fff;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 18px;
+        text-align: center;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+      }
 
-    .kpi b {
-      display: block;
-      font-size: 1.4rem;
-    }
+      .kpi b {
+        display: block;
+        font-size: 1.4rem;
+      }
 
-    .kpi span {
-      color: var(--text-muted);
-      font-size: 0.98rem;
-    }
+      .kpi span {
+        color: var(--text-muted);
+        font-size: 0.98rem;
+      }
 
+      /* Mobile/tablet fallback: place it back in the flow */
+      @media (max-width: 768px) {
+        .hero-panel {
+          position: static;
+          width: auto;
+          max-width: none;
+          margin: 16px 0;
+        }
+      }
     /* Featured section */
     .section {
       padding: 40px 0;
