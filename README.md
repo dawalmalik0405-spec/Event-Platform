@@ -47,12 +47,7 @@ Blueprints registered:
 
 git clone cd
 
-
 2) Create and activate a virtual environment
-
-Copy
-
-Insert
 
 python -m venv .venv
 
