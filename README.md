@@ -57,12 +57,7 @@ Windows
 macOS/Linux
 source .venv/bin/activate
 
-
 3) Install dependencies
-
-Copy
-
-Insert
 
 pip install -r requirements.txt
 
