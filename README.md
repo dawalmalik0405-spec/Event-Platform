@@ -26,11 +26,6 @@ Blueprints registered:
 
 ## 🧱 Project Structure
 
-
-Copy
-
-Insert
-
 . ├─ backend/ │ ├─ app.py # Entry point registering blueprints and serving frontend │ ├─ config.py # Flask app, CORS, secrets, DB config │ └─ routes/ │ ├─ auth.py # auth_bp │ ├─ organizer.py # organizer_bp │ ├─ participant.py # participant_bp │ ├─ collaboration.py # collab_bp │ └─ virtual_event.py # virtual_bp ├─ frontend/ │ ├─ common_dashboard.html │ ├─ signin.html │ ├─ signup.html │ ├─ organizer_dashboard.html │ ├─ participant_dashboard.html │ ├─ virtual_event.html │ └─ assets/ │ ├─ css/ ... │ └─ js/ ... └─ README.md
 
 
