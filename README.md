@@ -92,16 +92,11 @@ python -m backend.app
 
 Alternative (Flask CLI):
 
-Copy
-
-Insert
-
 PowerShell (Windows)
 $env:FLASK_APP="backend.app"; $env:FLASK_DEBUG="True"; flask run --host 0.0.0.0 --port 5000
 
 macOS/Linux
 export FLASK_APP=backend.app export FLASK_DEBUG=True flask run --host 0.0.0.0 --port 5000
-
 
 By default, the app binds to `0.0.0.0:5000`. Visit:
 - 🏠 `GET /` → `frontend/common_dashboard.html`
