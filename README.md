@@ -61,12 +61,7 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 
-
 4) Create an environment file
-
-Copy
-
-Insert
 
 cp .env.example .env # if you have a template
 
