@@ -183,9 +183,6 @@ The following blueprints are registered in `backend/app.py`:
 - Add test dependencies to `requirements-dev.txt`.
 - Use `pytest`:
 
-Copy
-
-Insert
 
 pytest -q
 
@@ -198,7 +195,6 @@ pytest -q
 - Set `FLASK_DEBUG=False` and a strong `SECRET_KEY`.
 - Serve static files via a proper web server/CDN if traffic is high.
 - Run the app behind a WSGI server (e.g., gunicorn or waitress):
-
 
 pip install gunicorn gunicorn -w 4 -b 0.0.0.0:${PORT:-5000} backend.app:app
 
