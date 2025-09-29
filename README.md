@@ -199,9 +199,6 @@ pytest -q
 - Serve static files via a proper web server/CDN if traffic is high.
 - Run the app behind a WSGI server (e.g., gunicorn or waitress):
 
-Copy
-
-Insert
 
 pip install gunicorn gunicorn -w 4 -b 0.0.0.0:${PORT:-5000} backend.app:app
 
