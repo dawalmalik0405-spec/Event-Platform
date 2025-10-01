@@ -150,16 +150,21 @@ All other unknown paths will fallback to `common_dashboard.html`.
 
 ---
 
-## 🔌 API Blueprints
+## 🔌 API Routes
 
-The following blueprints are registered in `backend/app.py`:
-- `auth_bp` (from `backend.routes.auth`)
-- `organizer_bp` (from `backend.routes.organizer`)
-- `participant_bp` (from `backend.routes.participant`)
-- `collab_bp` (from `backend.routes.collaboration`)
-- `virtual_bp` (from `backend.routes.virtual_event`)
+🏠 / → common_dashboard.html
 
-> Check each file under `backend/routes/` for their specific endpoints and methods.
+🔑 /signin → signin.html
+
+📝 /signup → signup.html
+
+🗂️ /organizer_dashboard → organizer_dashboard.html
+
+🙋 /participant_dashboard → participant_dashboard.html
+
+🖥️ /virtual_event → virtual_event.html
+
+🎨 /assets/<path> → static files
 
 ---
 
