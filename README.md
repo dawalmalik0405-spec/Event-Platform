@@ -106,21 +106,16 @@ pip install -r requirements.txt
 # 4) Create .env file
 cp .env.example .env
 
----
+```
 
-## 🔐 Environment Variables
+🔐 Environment Variables
 
-The app reads common variables such as:
+Example .env:
 
-- `SECRET_KEY` — Flask session secret (required in production)
-- `MONGO_URI` — connection string for MongoDB (if used by your routes)
-- `PORT` — port to run on (default 5000)
-- `FLASK_DEBUG` — set to `True` for dev, `False` for prod
-
-Example `.env`:
-
-SECRET_KEY=supersecretkey MONGO_URI=mongodb://localhost:27017/your-db PORT=5000 FLASK_DEBUG=True
-
+SECRET_KEY=supersecretkey
+MONGO_URI=mongodb://localhost:27017/your-db
+PORT=5000
+FLASK_DEBUG=True
 ---
 
 ## ▶️ Run the App
