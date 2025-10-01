@@ -108,7 +108,7 @@ cp .env.example .env
 
 ```
 
-🔐 Environment Variables
+## 🔐 Environment Variables
 
 Example .env:
 
@@ -116,23 +116,26 @@ SECRET_KEY=supersecretkey
 MONGO_URI=mongodb://localhost:27017/your-db
 PORT=5000
 FLASK_DEBUG=True
+
 ---
 
 ## ▶️ Run the App
 
-Recommended (module mode from project root):
+Recommended (module mode from root):
 
 python -m backend.app
 
 Alternative (Flask CLI):
 
-PowerShell (Windows)
+# Windows (PowerShell)
 $env:FLASK_APP="backend.app"; $env:FLASK_DEBUG="True"; flask run --host 0.0.0.0 --port 5000
 
-macOS/Linux
-export FLASK_APP=backend.app export FLASK_DEBUG=True flask run --host 0.0.0.0 --port 5000
+# macOS/Linux
+export FLASK_APP=backend.app
+export FLASK_DEBUG=True
+flask run --host 0.0.0.0 --port 5000
 
-By default, the app binds to `0.0.0.0:5000`. Visit:
+📍 Default: http://0.0.0.0:5000
 - 🏠 `GET /` → `frontend/common_dashboard.html`
 - 🔑 `GET /signin` → `frontend/signin.html`
 - 📝 `GET /signup` → `frontend/signup.html`
