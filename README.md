@@ -1,11 +1,15 @@
 # 🎉 Event Platform Backend + Frontend Static Serving  
 
+<div align="center">
+  
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)  
 [![Flask](https://img.shields.io/badge/Flask-Backend-black?logo=flask)](https://flask.palletsprojects.com/)  
 [![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)](https://www.mongodb.com/)  
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](#-license)  
 
 A **Flask-based backend** that registers multiple feature blueprints and serves a static frontend (HTML/CSS/JS) directly from the repository. Designed for quick local development and simple deployments.  
+
+</div>
 
 ---
 
@@ -182,7 +186,7 @@ All other unknown paths will fallback to `common_dashboard.html`.
 
 ## 🧪 Testing
 
-pytest -q
+- pytest -q
 
 ---
 ## 🛡️ Production Notes
