@@ -1,30 +1,51 @@
-# 🎉 Event Platform Backend + Frontend Static Serving
+# 🎉 Event Platform Backend + Frontend Static Serving  
 
-A Flask-based backend that registers multiple feature blueprints and serves a static frontend (HTML/CSS/JS) directly from the repository. Designed for quick local development and simple deployments.
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)  
+[![Flask](https://img.shields.io/badge/Flask-Backend-black?logo=flask)](https://flask.palletsprojects.com/)  
+[![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)](https://www.mongodb.com/)  
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](#-license)  
 
-- 🚀 Fast start
-- 🔐 Auth-ready
-- 👥 Organizer & Participant flows
-- 🤝 Collaboration endpoints
-- 🖥️ Virtual events
-- 🗂️ Static frontend served by Flask
+A **Flask-based backend** that registers multiple feature blueprints and serves a static frontend (HTML/CSS/JS) directly from the repository. Designed for quick local development and simple deployments.  
 
 ---
 
-## 🧭 Overview
+## 🛠️ Tools & Tech Stack  
 
-This application exposes API blueprints and serves the frontend pages from a sibling `frontend/` directory. Key routes like `/`, `/signin`, and `/signup` return corresponding HTML files. Additional pages include dedicated dashboards and a virtual event page.
-
-Blueprints registered:
-- 🔐 Auth: `auth_bp`
-- 👥 Organizer: `organizer_bp`
-- 🙋 Participant: `participant_bp`
-- 🤝 Collaboration: `collab_bp`
-- 🖥️ Virtual Event: `virtual_bp`
+- 🐍 **Python 3.10+** — Core programming language  
+- ⚡ **Flask** — Backend & API framework  
+- 🍃 **MongoDB** — Database (via `MONGO_URI`)  
+- 🎨 **HTML / CSS / JS** — Static frontend pages  
+- 🔐 **Flask-CORS & Sessions** — Auth & security  
+- 🧪 **Pytest** — Testing framework  
 
 ---
 
-## 🧱 Project Structure
+## 🔗 Live Demo & Preview  
+
+🌐 **Demo:** [Click Here to Try It](#)  
+
+📸 **Preview:**  
+
+![App Preview](https://via.placeholder.com/900x500.png?text=Project+Preview)  
+
+---
+
+## 🧭 Overview  
+
+This application exposes API blueprints and serves the frontend pages from a sibling `frontend/` directory.  
+
+**Blueprints registered:**  
+- 🔐 Auth → `auth_bp`  
+- 👥 Organizer → `organizer_bp`  
+- 🙋 Participant → `participant_bp`  
+- 🤝 Collaboration → `collab_bp`  
+- 🖥️ Virtual Event → `virtual_bp`  
+
+---
+
+## 🧱 Project Structure  
+
+
 
 . ├─ backend/ │ ├─ app.py # Entry point registering blueprints and serving frontend │ ├─ config.py # Flask app, CORS, secrets, DB config │ └─ routes/ │ ├─ auth.py # auth_bp │ ├─ organizer.py # organizer_bp │ ├─ participant.py # participant_bp │ ├─ collaboration.py # collab_bp │ └─ virtual_event.py # virtual_bp ├─ frontend/ │ ├─ common_dashboard.html │ ├─ signin.html │ ├─ signup.html │ ├─ organizer_dashboard.html │ ├─ participant_dashboard.html │ ├─ virtual_event.html │ └─ assets/ │ ├─ css/ ... │ └─ js/ ... └─ README.md
 
