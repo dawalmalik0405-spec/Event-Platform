@@ -112,11 +112,13 @@ cp .env.example .env
 
 Example .env:
 
+```bash
 SECRET_KEY=supersecretkey
 MONGO_URI=mongodb://localhost:27017/your-db
 PORT=5000
 FLASK_DEBUG=True
 
+```
 ---
 
 ## ▶️ Run the App
