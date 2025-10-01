@@ -68,42 +68,43 @@ This application exposes API blueprints and serves the frontend pages from a sib
 │ ├─ css/ ...
 │ └─ js/ ...
 └─ README.md
----
-
-## ⚙️ Prerequisites
-
-- 🐍 Python 3.10+ recommended
-- 📦 pip and virtualenv (or uv/poetry if preferred)
-- 🍃 MongoDB (if you use `MONGO_URI` in `config.py`)
-- 🔑 Environment variables (see below)
 
 ---
 
-## 🚀 Setup
+> 📝 Ensure `backend/__init__.py` exists so `backend` is recognized as a package.  
 
-1) Clone and enter the project
+---
 
-git clone cd
+## ⚙️ Prerequisites  
 
-2) Create and activate a virtual environment
+- 🐍 Python 3.10+  
+- 📦 pip & virtualenv (or poetry/uv)  
+- 🍃 MongoDB (if using DB features)  
+- 🔑 Environment variables configured  
 
+---
+
+## 🚀 Setup  
+
+```bash
+# 1) Clone the repo
+git clone <repo-url>
+cd <project-folder>
+
+# 2) Create & activate a virtual environment
 python -m venv .venv
 
-Windows
+# Windows
 .venv\Scripts\activate
 
-macOS/Linux
+# macOS/Linux
 source .venv/bin/activate
 
-3) Install dependencies
-
+# 3) Install dependencies
 pip install -r requirements.txt
 
-4) Create an environment file
-
-cp .env.example .env # if you have a template
-
-Otherwise, create .env and add the variables below
+# 4) Create .env file
+cp .env.example .env
 
 ---
 
