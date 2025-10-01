@@ -33,7 +33,7 @@ A **Flask-based backend** that registers multiple feature blueprints and serves 
 
 ## 📸 **Preview:**  
 
-![App Preview](https://via.placeholder.com/900x500.png?text=Project+Preview)  
+![App Preview](https://github.com/MdSaifAli063/Event-Platform/blob/01331d64620fd3708a137f8f488af0cecba2e739/Screenshot%202025-09-30%20005650.png)  
 
 ---
 
