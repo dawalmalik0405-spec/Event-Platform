@@ -200,11 +200,11 @@ All other unknown paths will fallback to `common_dashboard.html`.
 ---
 ## 🛡️ Production Notes
 
-⚠️ Set FLASK_DEBUG=False and a strong SECRET_KEY
-
-🌍 Use WSGI server (gunicorn/waitress)
+- ⚠️ Set FLASK_DEBUG=False and a strong SECRET_KEY
+- 🌍 Use WSGI server (gunicorn/waitress)
 
 pip install gunicorn
+
 gunicorn -w 4 -b 0.0.0.0:${PORT:-5000} backend.app:app
 
 ---
