@@ -71,7 +71,7 @@ This application exposes API blueprints and serves the frontend pages from a sib
 │ ├─ collaboration.py # collab_bp
 │ └─ virtual_event.py # virtual_bp
 ├─ frontend/
-│ ├─ common_dashboard.html
+-│ ├─ common_dashboard.html
 │ ├─ signin.html
 │ ├─ signup.html
 │ ├─ organizer_dashboard.html
