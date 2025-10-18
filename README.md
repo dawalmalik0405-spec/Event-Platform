@@ -25,7 +25,7 @@ A **Flask-based backend** that registers multiple feature blueprints and serves 
 
 ---
 
-## 🔗 Live Demo & Preview  
+## 🔗 Live Demo   
 
 🌐 **Demo:** [Click Here to Try It](#) Coming soon ! 
 
