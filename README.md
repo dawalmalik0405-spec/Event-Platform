@@ -226,10 +226,3 @@ gunicorn -w 4 -b 0.0.0.0:${PORT:-5000} backend.app:app
 📝 Add your chosen license (MIT, Apache-2.0, etc.)
 
 ---
-
-✨ Changes made:  
-- Added **badges** (Python, Flask, MongoDB, License) under heading  
-- Added **Tools & Tech Stack** section with icons  
-- Improved **Preview & Demo section**  
-- Clean **all-in-one version** with emojis + formatting  
-
