@@ -184,11 +184,8 @@ All other unknown paths will fallback to `common_dashboard.html`.
 ## 🧑‍💻 Development Tips
 
 - Run from project root (not inside backend/)
-
 - Always keep backend/__init__.py present
-
 - Add new HTML → frontend/
-
 - Map new routes → backend/app.py
 
 ---
