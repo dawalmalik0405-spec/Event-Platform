@@ -142,10 +142,10 @@ python -m backend.app
 
 Alternative (Flask CLI):
 
-# Windows (PowerShell)
+### Windows (PowerShell)
 $env:FLASK_APP="backend.app"; $env:FLASK_DEBUG="True"; flask run --host 0.0.0.0 --port 5000
 
-# macOS/Linux
+### macOS/Linux
 export FLASK_APP=backend.app
 export FLASK_DEBUG=True
 flask run --host 0.0.0.0 --port 5000
