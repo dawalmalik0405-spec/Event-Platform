@@ -82,7 +82,6 @@ This application exposes API blueprints and serves the frontend pages from a sib
 │ └─ js/ ...
 └─ README.md
 
----
 
 > 📝 Ensure `backend/__init__.py` exists so `backend` is recognized as a package.  
 
