@@ -233,4 +233,3 @@ gunicorn -w 4 -b 0.0.0.0:${PORT:-5000} backend.app:app
 - Improved **Preview & Demo section**  
 - Clean **all-in-one version** with emojis + formatting  
 
-Would you like me to also add a **"Features" section with checkmarks** ✅ (like "User Auth", "Event Management", etc.) for quick scanning?
