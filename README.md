@@ -212,11 +212,8 @@ gunicorn -w 4 -b 0.0.0.0:${PORT:-5000} backend.app:app
 ## 🤝 Contributing
 
 - Fork repo
-
 - Create feature branch
-
 - Commit changes with clear messages
-
 - Open a PR
 
 ---
