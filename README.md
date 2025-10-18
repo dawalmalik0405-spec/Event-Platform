@@ -164,13 +164,14 @@ All other unknown paths will fallback to `common_dashboard.html`.
 ---
 
 ## 🔌 API Routes
-🏠 / → common_dashboard.html
-🔑 /signin → signin.html
-📝 /signup → signup.html
-🗂️ /organizer_dashboard → organizer_dashboard.html
-🙋 /participant_dashboard → participant_dashboard.html
-🖥️ /virtual_event → virtual_event.html
-🎨 /assets/<path> → static files
+
+- 🏠 / → common_dashboard.html
+- 🔑 /signin → signin.html
+- 📝 /signup → signup.html
+- 🗂️ /organizer_dashboard → organizer_dashboard.html
+- 🙋 /participant_dashboard → participant_dashboard.html
+- 🖥️ /virtual_event → virtual_event.html
+- 🎨 /assets/<path> → static files
 
 ---
 
