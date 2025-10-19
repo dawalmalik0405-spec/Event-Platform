@@ -13,7 +13,6 @@ A **Flask-based backend** that registers multiple feature blueprints and serves 
 </div>
 
 ---
-
 ## 🛠️ Tools & Tech Stack  
 
 - 🐍 **Python 3.10+** — Core programming language  
